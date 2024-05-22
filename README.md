@@ -1,12 +1,14 @@
-## prerequisites
+## software prerequisites
 
-- docker
-- docker-compose
-- python + pipenv
+- git + github [IIoT School Mini-Course](https://www.skool.com/iiotschool/classroom/7e75039a)
+- docker + docker-compose [IIoT School Mini-Course](https://www.skool.com/iiotschool/classroom/e2862b44)
+- python + pipenv [IIoT School Mini-Course](https://www.skool.com/iiotschool/classroom/41753db0)
 
-## getting started 
+## Getting the lab setup
 
 ### overview
+
+In general these are the two major steps that need to be completed after you clone the repo.
 
 - create password file for mosquitto
 - rename `template.secrets.toml` to `.secrets.toml` in `./client` and `./mock_publisher`
